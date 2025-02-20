@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 4</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #0056b3;
+            color: white;
+        }
+        td:nth-child(3) {
+            background-color: #f0f8ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Таблица продуктов</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Название</th>
+                <th>Стоимость</th>
+                <th>Количество</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Яблоки</td>
+                <td rowspan="2">150 руб.</td>
+                <td>10 кг</td>
+            </tr>
+            <tr>
+                <td>Груши</td>
+                <td>5 кг</td>
+            </tr>
+            <tr>
+                <td>Бананы</td>
+                <td>200 руб.</td>
+                <td>8 кг</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
